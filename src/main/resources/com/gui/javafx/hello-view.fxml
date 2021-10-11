@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.javafx.HelloController">-->
+<!--</VBox>-->
+<!--                <Button onAction="#onHelloButtonClick" text="Hello!" rotate="25"/>-->
+
+<SplitPane styleClass="root" dividerPositions="0.29797979797979796" minHeight="0.0" minWidth="0.0" prefHeight="160.0"
+            prefWidth="200.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.javafx.HelloController">
+<!--        <padding>-->
+<!--            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />-->
+<!--        </padding>-->
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+            <VBox>
+                <Label fx:id="welcomeText" styleClass="welcome-text" text="Placeholder test..." />
+
+                <Button onAction="#onHelloButtonClick" text="Hello!" />
+            </VBox>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+            <VBox layoutX="84.0" layoutY="-6.0">
+                <Button fx:id="specialButton" mnemonicParsing="false" text="Button" textFill="#e10c0c" />
+            </VBox>
+        </AnchorPane>
+        <stylesheets>
+            <URL value="@css/stylesheet.css" />
+        </stylesheets>
+    </SplitPane>

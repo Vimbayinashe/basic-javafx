@@ -1,0 +1,23 @@
+Button {
+    /*-fx-background-color: red;*/
+    -fx-padding: 10px;
+}
+
+/* Class usage: add attribute  styleClass="welcome-text*/
+.welcome-text {
+    -fx-padding: 10px;
+    -fx-font-size: 20px;
+    -fx-background-color: pink;
+}
+
+/* Id usage: add attribute fx:id="specialButton"*/
+#specialButton {
+    -fx-background-color: blue;
+}
+
+/* special class - set to the root xml element to effect nuances of the same colour on all elements*/
+.root {
+    -fx-base: rgba(60, 63, 65, 255);    /* dark mode */
+    -fx-font-size: 25px;
+}
+/* can also be used to effect other properties (eg font) except where other explicit styling has been declared */
