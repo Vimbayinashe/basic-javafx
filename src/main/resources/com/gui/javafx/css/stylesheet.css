@@ -17,7 +17,8 @@ Button {
 
 /* special class - set to the root xml element to effect nuances of the same colour on all elements*/
 .root {
-    -fx-base: rgba(60, 63, 65, 255);    /* dark mode */
+     /*-fx-base: rgba(60, 63, 65, 255);    !* dark mode *!*/
     -fx-font-size: 25px;
+    -fx-padding: 10px;
 }
 /* can also be used to effect other properties (eg font) except where other explicit styling has been declared */
